@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="DL.jpg">
+  <title>GLAZBA-ABOUT</title>
+  <style>
+    body {
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("stock-photo-qawwali-background-d-rendering-illustration-2157094709.jpg");      
+      background-size:auto;
+      overflow-x: hidden;
+      margin: 0; 
+      padding: 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    }
+
+   
+    h1,p,h2{
+      color: #fff; /* Set text color to white */
+    }
+  </style>
+  <style>
+    p{
+margin-left: 370px;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 45px;
+width: 700px;
+text-align: center;
+    }
+.one{
+font-size: 30px;
+margin-left: 270px;
+margin-top: 130px;
+}
+a{
+color: white;
+text-decoration: none;
+}
+h2{
+position: relative;
+left: 100px;
+}
+.three{
+display: flex;
+justify-content: space-between;
+
+}
+.three h1{
+  font-size: 38px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.three ul li{
+display: inline-block;
+margin-right: 30px;
+position: relative;
+margin-top: 20px;
+}
+.three ul{
+margin-right: 10px;
+font-size: 25px;
+margin-right: 1px;
+margin-top: 9px;
+}  
+.three ul li::after{
+height:3px;
+width: 0%;
+background: teal;
+position: absolute;
+left: -1px;
+content: '';
+bottom: 0;
+transition: 0.5s;
+}
+.three ul li:hover::after{
+width: 100%;
+}
+.two{
+margin-left: 410px;
+margin-bottom: -55px;
+
+}
+.two button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid grey;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #009688 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s;
+}
+.two button:hover {
+    background-position: left bottom;
+    color: white; 
+} 
+  .threee h1{
+    color: #009688;
+    margin-top: 60px;
+    margin-left: 250px;
+    font-size: 80px;
+        }
+        .four{
+            color: white;
+            margin-left: 40px;
+            margin-right: 100px;
+            font-size: 20px;
+            margin-top: -10px;
+        }
+        .five{
+            margin-left:  900px;
+            margin-top: -520px;
+        }
+        .five img{
+            transform: scale(1.4);
+            height: 400px;
+            width:500px;
+        }
+        .six{
+            color:#009688;
+            margin-top: 150px;
+            margin-left: 300px;
+            font-size: 25px;
+        }
+        .six h2{
+            margin-left: 330px;
+            margin-top: -10px;
+        }
+        .seven{
+            color: white;
+            font-size: 20px;
+            margin-left: 20px;
+            margin-right: 300px;
+            margin-top: -10px;
+        }
+        .eight{
+            color: white;
+            font-size: 20px;
+            margin-left:30px;
+            margin-right: 300px;
+            margin-top: -20px;
+        }
+        .nine{
+            color: white;
+            font-size: 20px;
+            margin-left: 670px;
+            margin-right: 300px;
+            margin-top: 30px;
+        }
+        .nine button{
+            background-color: #009688;
+            border: none;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        .ten{
+            font-size: 25px;
+            color: #009688;
+            margin-left: 600px;
+            margin-top: 50px;
+        }
+    
+        .team {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        
+        .member {
+            position: relative;
+            width: 320px;
+            height: 500px;
+            border: 0.1px solid ;
+            border-radius: 10px;
+            border-color: #009688;
+            transition: background-color 0.3s;
+            cursor: pointer;
+           
+        }
+        
+        .member:hover {
+            background-color: #009688;
+        }
+        .member:hover img {
+            opacity: 0.2; /* Hide image on hover */
+        }
+        .member:hover .name {
+            opacity: 0.2; /* Hide image on hover */
+        }
+        .member:hover .role {
+            opacity: 0.2; /* Hide image on hover */
+        }
+    
+        
+        .member img {
+            width: 250px;
+            height: 250px; 
+            margin-top: 50px;
+            margin-left: 40px; 
+            border-radius: 50%;
+        }
+        
+        .member .name {
+            position: absolute;
+            bottom: 10px;
+            margin-left: -10px;
+            font-size: 40px;
+            top: 55%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.0);
+            color: #009688;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+        .member .role {
+            position: absolute;
+            bottom: 10px;
+            margin-left: -10px;
+            font-size: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.0);
+            color: white;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+        .member .info {
+            display: none;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            margin-left: -8px;
+            font-size: 20px;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 69, 0, 0.0);
+            color: white;
+            padding: 20px;
+            text-align: justify; /* Justify text to fill the entire width */
+            width: calc(100% - 20px); /* Calculate width to consider padding */
+        }
+        .member .info p {
+            margin: 0; /* Remove default margins */
+        }
+        .team2 {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        
+        .member2 {
+            position: relative;
+            width: 320px;
+            height: 500px;
+            border: 0.1px solid ;
+            border-radius: 10px;
+            border-color: #009688;
+            transition: background-color 0.3s;
+            cursor: pointer;
+           
+        }
+        
+        .member2:hover {
+            background-color: #009688;
+        }
+        .member2:hover img {
+            opacity: 0.2; /* Hide image on hover */
+        }
+        .member2:hover .name {
+            opacity: 0.2; /* Hide image on hover */
+        }
+        .member2:hover .role {
+            opacity: 0.2; /* Hide image on hover */
+        }
+    
+        
+        .member2 img {
+            width: 250px;
+            height: 250px; 
+            margin-top: 50px;
+            margin-left: 40px; 
+            border-radius: 50%;
+        }
+        
+        .member2 .name {
+            position: absolute;
+            bottom: 10px;
+            margin-left: -10px;
+            font-size: 40px;
+            top: 55%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.0);
+            color: #009688;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+        .member2 .role {
+            position: absolute;
+            bottom: 10px;
+            margin-left: -10px;
+            font-size: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.0);
+            color: white;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+        }
+        .member2 .info {
+            display: none;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            margin-left: -8px;
+            font-size: 20px;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 69, 0, 0.0);
+            color: white;
+            padding: 20px;
+            text-align: justify; /* Justify text to fill the entire width */
+            width: calc(100% - 20px); /* Calculate width to consider padding */
+        }
+        .member2 .info p {
+            margin: 0; /* Remove default margins */
+        }
+
+</style>
+</head>
+<body>
+   
+
+    <div class="three">
+        <h1>GLAZBA</h1>
+        <ul>
+            <li class="cd"><a href="glazba-home.html">HOME</a></li>
+            <li class="cd"><a href="glazba-about.html">ABOUT</a></li>
+            <li class="ef"><a href="glazba-faq.html">FAQ's</a></li>
+            <li class="gh"><a href="glazba-contact.html">CONTACT US</a></li>
+            </ul>
+    </div>
+<div class="threee">
+    <h1>The Glazba's (r)Evolution</h1>
+ </div>
+ <div class="four">
+<p>In the realm of cybersecurity, the landscape is ever-evolving, yet our tools often lag behind, leaving us vulnerable to emerging threats. Just as email remains a constant amidst technological shifts, the need for robust defenses against adversarial attacks persists.Enter Defendiox: a groundbreaking initiative to redefine defense in machine learning security. Our mission is simple yet profound—to empower individuals and organizations with resilient, proactive defense strategies against evolving threats.With Defendiox, we're pioneering a new era of cybersecurity, driven by innovation, integrity, and unwavering dedication to our users' security. Join us as we forge a path towards a safer, more resilient future in adversarial machine learning defense.</p>
+</div> 
+ <div class="ten">
+     <h1>Meet our team</h1> 
+ </div>
+ <div class="team">
+     <div class="member" onmouseover="showInfo(1)" onmouseout="hideInfo(1)">
+         <img src="visshal.jpg" alt="Visshal ">
+         <p class="role">Co Founder</p>
+         <p class="name">Visshal</p>
+         <p class="info">Visshal is an ambitious student and talented software engineer, currently pursuing his Bachelor's degree in Computer Science at Shiv Nadar University. Despite being in the midst of his studies, he actively contributes as a full stack developer and co-founder of Defendiox, where he applies his burgeoning expertise in software engineering to drive innovative projects.                </p>
+     </div>
+     <div class="member" onmouseover="showInfo(2)" onmouseout="hideInfo(2)">
+         <img src="ezhil.jpg" alt="Ezhil">
+         <p class="role">Co Founder</p>
+         <p class="name">Ezhilarasi</p>
+         <p class="info">Ezhilarasi is a dedicated learner and proficient software engineer, presently enrolled in the Computer Science Bachelor's program at Shiv Nadar University. Amidst her academic pursuits, she actively participates as a full stack developer and co-founder of Defendiox, utilizing her expertise in software engineering to lead innovative ventures.                </p>
+     </div>
+     <div class="member" onmouseover="showInfo(3)" onmouseout="hideInfo(3)">
+        <img src="vignesh.jpg" alt="Vignesh">
+        <p class="role">Co Founder</p>
+        <p class="name">Vignesh</p>
+        <p class="info">Vignesh is an ambitious student and talented software engineer, currently pursuing his Bachelor's degree in Computer Science at Shiv Nadar University. Despite being in the midst of his studies, he actively contributes as a full stack developer and co-founder of Defendiox, where he applies his burgeoning expertise in software engineering to drive innovative projects.                </p>
+    </div>
+ </div>
+ <div class="team2">
+    <div class="member2" onmouseover="showInfo(4)" onmouseout="hideInfo(4)">
+        <img src="vishal.jpg" alt="vishal">
+        <p class="role">Co Founder</p>
+        <p class="name">Vishal</p>
+        <p class="info">Vishal is an ambitious student and talented software engineer, currently pursuing his Bachelor's degree in Computer Science at Shiv Nadar University. Despite being in the midst of his studies, he actively contributes as a full stack developer and co-founder of Defendiox, where he applies his burgeoning expertise in software engineering to drive innovative projects.                </p>
+    </div>
+    <div class="member2" onmouseover="showInfo(5)" onmouseout="hideInfo(5)">
+        <img src="rosylin.jpg" alt="Rosylin">
+        <p class="role">Co Founder</p>
+        <p class="name">Rosylin</p>
+        <p class="info">Rosylin is a dedicated learner and proficient software engineer, presently enrolled in the Computer Science Bachelor's program at Shiv Nadar University. Amidst her academic pursuits, she actively participates as a full stack developer and co-founder of Defendiox, utilizing her expertise in software engineering to lead innovative ventures.                </p>
+    </div>
+    <div class="member2" onmouseover="showInfo(6)" onmouseout="hideInfo(6)">
+       <img src="rithika.jpg" alt="rithika">
+       <p class="role">Co Founder</p>
+       <p class="name">Rithika</p>
+       <p class="info">Rithika is a dedicated learner and proficient software engineer, presently enrolled in the Computer Science Bachelor's program at Shiv Nadar University. Amidst her academic pursuits, she actively participates as a full stack developer and co-founder of Defendiox, utilizing her expertise in software engineering to lead innovative ventures.               </p>
+   </div>
+</div>
+ <div class="six">
+     <h1>Help build the future you want to live</h1> 
+     <h2>in</h2>
+ </div>
+ <div class="seven">
+     <p>Our team combines deep mathematical and technical knowledge from the world’s top research institutions with expertise in building remarkable and easy-to-use services. By joining our team,</p>
+ </div>
+     <div class="eight">
+    <P> you can help build a different and better internet for now and for the future.</P>
+ </div> 
+ <div class="nine">
+     <button type="button" onclick="redirectToJoinUsPage()">JOIN US<span></span></button>
+ </div>
+</div>
+<script>
+function showInfo(index) {
+ const infoElement = document.querySelectorAll(".member .info, .member2 .info")[index - 1];
+ infoElement.style.display = "block";
+}
+function hideInfo(index) {
+ const infoElement = document.querySelectorAll(".member .info,.member2 .info")[index - 1];
+ infoElement.style.display = "none";
+}
+function redirectToJoinUsPage() {
+ window.location.href = "g-joinus.html";
+}
+</script>
+</body>
+</html>

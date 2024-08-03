@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="DL.jpg">
+  <title>GLAZBA-HOME</title>
+  <style>
+    body {
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("stock-photo-qawwali-background-d-rendering-illustration-2157094709.jpg");      
+      background-size:auto;
+      margin: 0; 
+      padding: 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    }
+
+   
+    h1,p,h2{
+      color: #fff; /* Set text color to white */
+    }
+  </style>
+  <style>
+    p{
+margin-left: 370px;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 45px;
+width: 700px;
+text-align: center;
+    }
+.one{
+font-size: 35px;
+margin-left: 380px;
+margin-top: 130px;
+}
+a{
+color: white;
+text-decoration: none;
+}
+h2{
+position: relative;
+left: 100px;
+}
+.three{
+display: flex;
+justify-content: space-between;
+
+}
+.three h1{
+  font-size: 38px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.three ul li{
+display: inline-block;
+margin-right: 30px;
+position: relative;
+margin-top: 20px;
+}
+.three ul{
+margin-right: 10px;
+font-size: 25px;
+margin-right: 1px;
+margin-top: 9px;
+}
+.four{
+color: white;
+display: inline-block;
+margin-left: 70px;
+border-radius: 2px;
+}   
+.three ul li::after{
+height:3px;
+width: 0%;
+background: #009688;
+position: absolute;
+left: -1px;
+content: '';
+bottom: 0;
+transition: 0.5s;
+}
+.three ul li:hover::after{
+width: 100%;
+}
+.two{
+margin-left: 410px;
+margin-bottom: -55px;
+
+}
+.two button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid grey;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #009688 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s;
+}
+
+.two button:hover {
+    background-position: left bottom;
+    color: white; 
+}
+
+.four{
+  margin-left: 790px;
+  margin-top: -40px;
+  
+  }
+  .four button {
+      width: 200px;
+      padding: 15px 0;
+      text-align: center;
+      margin: 20px 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: 2px solid grey;
+      color: white;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(to right, #009688 50%, transparent 50%);
+      background-size: 200% 100%;
+      background-position: right bottom;
+      transition: background-position 0.5s;
+  }
+  
+  .four button:hover {
+      background-position: left bottom;
+      color: white; 
+  }
+
+</style>
+</head>
+<body>
+   
+
+    <div class="three">
+      <h1>GLAZBA</h1>
+      <ul>
+          <li class="cd"><a href="glazba-home.html">HOME</a></li>
+          <li class="cd"><a href="glazba-about.html">ABOUT</a></li>
+          <li class="ef"><a href="glazba-faq.html">FAQ's</a></li>
+          <li class="gh"><a href="glazba-contact.html">CONTACT US</a></li>
+          </ul>
+        
+    </div>
+    <div class="one">
+        <h1>Heartfelt Tune Haven</h1>
+    </div>
+        <p>GLAZBA is a musical sanctuary, offering personalized recommendations rooted in emotions. Dive into a world of soulful melodies and heartfelt lyrics curated just for you, guiding you through the depths of your feelings.</p>
+    <div class="two">
+        <button type="button" onclick="redirectToGetStartedPage()">GET STARTED<span></span></button>
+    </div>
+    <div class="four">
+      <button type="button" onclick="redirectToJoinusPage()">JOIN US<span></span></button>
+    </div>
+    <script>
+      function redirectToJoinusPage() {
+          window.location.href = "g-joinus.html";
+      }
+      function redirectToGetStartedPage(){
+        window.location.href="g-getstarted.html";
+      }
+  </script>
+  
+</body>
+</html>

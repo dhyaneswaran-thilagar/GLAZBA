@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="DL.jpg">
+  <title>GLAZBA-FAQ</title>
+  <style>
+    body {
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("stock-photo-qawwali-background-d-rendering-illustration-2157094709.jpg");      
+      background-size:auto;
+      margin: 0; 
+      padding: 0;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    }
+
+   
+    h1,p,h2{
+      color: #fff; /* Set text color to white */
+    }
+  </style>
+  <style>
+
+    p{
+margin-left: 370px;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 45px;
+width: 700px;
+text-align: center;
+    }
+
+a{
+color: white;
+text-decoration: none;
+}
+h2{
+position: relative;
+left: 100px;
+}
+.threee{
+    color: #009688;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.question-box {
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    color: white;
+    margin-top: 10px; /* Add margin for spacing */
+    font-size: 20px;
+}
+
+.answer ul {
+    list-style-type: disc; /* Set bullet point style */
+    padding-left: 20px; /* Add indentation for bullet points */
+}
+
+.answer li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+.question{
+    color:  #009688;
+    font-size: 30px;
+}
+
+.question-box2 {
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus2 {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer2 {
+    display: none;
+    color: white;
+    margin-top: 10px;
+ /* Add margin for spacing */
+    font-size: 20px;
+}
+.question2{
+    color: white;
+    font-size: 30px;
+}
+
+.question-box3 {
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus3 {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer3 {
+    display: none;
+    color: white;
+    margin-top: 10px; /* Add margin for spacing */
+    font-size: 20px;
+}
+
+.answer3 ul {
+    list-style-type: disc; /* Set bullet point style */
+    padding-left: 20px; /* Add indentation for bullet points */
+}
+
+.answer3 li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+.question3{
+    color: white;
+    font-size: 30px;
+}
+
+
+.question-box4{
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus4 {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer4 {
+    display: none;
+    color: white;
+    margin-top: 10px; /* Add margin for spacing */
+    font-size: 20px;
+}
+
+.answer4 ul {
+    list-style-type: disc; /* Set bullet point style */
+    padding-left: 20px; /* Add indentation for bullet points */
+    font-size: 20px;
+}
+
+.answer4 li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+.question4{
+    color:  #009688;
+    font-size: 30px;
+}
+.question-box5{
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus5 {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer5{
+    display: none;
+    color: white;
+    margin-top: 10px; /* Add margin for spacing */
+    font-size: 20px;
+}
+
+.answer5 ul {
+    list-style-type: disc; /* Set bullet point style */
+    padding-left: 20px; /* Add indentation for bullet points */
+}
+
+.answer5 li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+.question5{
+    color: white;
+    font-size: 30px;
+}
+
+.question-box6{
+    position: relative; /* Make the container position relative */
+    background-color:rgba(3, 3, 3, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow to contain the "+" */
+}
+
+.plus6 {
+    position: absolute; /* Position the "+" absolutely */
+    top: 15px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color:  #009688;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answer6{
+    display: none;
+    color: white;
+    margin-top: 10px; /* Add margin for spacing */
+    font-size: 20px;
+}
+.answer6 a{
+    text-decoration: none;
+    color:  #009688;
+}
+
+.answer6 ul {
+    list-style-type: disc; /* Set bullet point style */
+    padding-left: 20px; /* Add indentation for bullet points */
+}
+
+.answer6 li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+.question6{
+    color:  #009688;
+    font-size: 30px;
+}
+.three{
+display: flex;
+justify-content: space-between;
+
+}
+.three h1{
+  font-size: 38px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.three ul li{
+display: inline-block;
+margin-right: 30px;
+position: relative;
+margin-top: 20px;
+}
+.three ul{
+margin-right: 10px;
+font-size: 25px;
+margin-right: 1px;
+margin-top: 9px;
+}
+.three ul li::after{
+height:3px;
+width: 0%;
+background: #009688;
+position: absolute;
+left: -1px;
+content: '';
+bottom: 0;
+transition: 0.5s;
+}
+.three ul li:hover::after{
+width: 100%;
+}
+
+</style>
+</head>
+<body>
+    <div class="three">
+        <h1>GLAZBA</h1>
+        <ul>
+            <li class="cd"><a href="glazba-home.html">HOME</a></li>
+            <li class="cd"><a href="glazba-about.html">ABOUT</a></li>
+            <li class="ef"><a href="glazba-faq.html">FAQ's</a></li>
+            <li class="gh"><a href="glazba-contact.html">CONTACT US</a></li>
+            </ul>
+    </div>
+    <div class="threee">
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    </div>
+    <div class="question-box2" onclick="toggleAnswer2()">
+        <div class="question2">What is Defendiox?</div>
+        <div class="plus2" id="plus2">+</div>
+        <div class="answer2" id="answer2">
+        <p>Defendiox is an innovative project designed to assess the robustness of image classification models against adversarial attacks and explore defense mechanisms using advanced machine learning techniques. It utilizes techniques such as adversarial example generation, autoencoder-based feature learning, and randomization in pre-trained models to evaluate the resilience of image classifiers against various threats</p>
+        </div>
+    </div>
+    <div class="question-box" onclick="toggleAnswer()">
+        <div class="question">How secure is Defendiox?</div>
+        <div class="plus" id="plus">+</div>
+        <div class="answer" id="answer">
+        <p>Defendiox prioritizes security by rigorously testing image classification models against adversarial attacks. By simulating real-world scenarios and applying state-of-the-art defense mechanisms, Defendiox offers insights into the vulnerability of these models and the effectiveness of potential countermeasures. However, it's important to note that security is a continuous process, and while Defendiox provides valuable insights, it cannot guarantee absolute security.</p>
+        </ul>
+          </div>
+    </div>
+    <div class="question-box3" onclick="toggleAnswer3()">
+        <div class="question3">Is Defendiox free?</div>
+        <div class="plus3" id="plus3">+</div>
+        <div class="answer3" id="answer3">
+        <p>Yes, Defendiox is completely free to use. We believe in promoting accessibility and collaboration in the field of adversarial machine learning research. Users can freely access the codebase, documentation, and resources provided by Defendiox to enhance their understanding of adversarial attacks and defenses in image classification.</p>
+        </div>   
+</div>
+<div class="question-box4" onclick="toggleAnswer4()">
+    <div class="question4">How Secure is Defendiox?</div>
+    <div class="plus4" id="plus4">+</div>
+    <div class="answer4" id="answer4">
+    <p>Defendiox prioritizes security by rigorously testing image classification models against adversarial attacks. By simulating real-world scenarios and applying state-of-the-art defense mechanisms, Defendiox offers insights into the vulnerability of these models and the effectiveness of potential countermeasures. However, it's important to note that security is a continuous process, and while Defendiox provides valuable insights, it cannot guarantee absolute security.</p>
+    </div>  
+</div>  
+
+<div class="question-box5" onclick="toggleAnswer5()">
+    <div class="question5">How Accurate is Defendiox?</div>
+    <div class="plus5" id="plus5">+</div>
+    <div class="answer5" id="answer5">
+    <P>Defendiox aims to provide accurate assessments of the robustness of image classification models against adversarial attacks. By employing well-established techniques and methodologies in adversarial machine learning research, Defendiox offers reliable insights into the effectiveness of various defense mechanisms. However, like any research tool, the accuracy of Defendiox's findings depends on the quality of data, models, and methodologies used in its evaluation. Users are encouraged to interpret results critically and consider real-world implications when assessing the accuracy of Defendiox's evaluations.</P>
+    </div>  
+</div> 
+
+<div class="question-box6" onclick="toggleAnswer6()">
+    <div class="question6">I am a Defendiox user and my question wasn't listed. How can I contact Defendiox Team?</div>
+    <div class="plus6" id="plus6">+</div>
+    <div class="answer6" id="answer6">
+        If you have questions which is not listed, Refer to the <a href="glazba-contact.html">CONTACT</a>
+      </div>  
+</div> 
+</div>
+<script>
+    function toggleAnswer() {
+        var answer = document.getElementById("answer");
+        var plus = document.getElementById("plus");
+
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+    function toggleAnswer2() {
+        var answer = document.getElementById("answer2");
+        var plus = document.getElementById("plus2");
+
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+    function toggleAnswer3() {
+        var answer = document.getElementById("answer3");
+        var plus = document.getElementById("plus3");
+
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+    function toggleAnswer4() {
+        var answer = document.getElementById("answer4");
+        var plus = document.getElementById("plus4");
+    
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+    function toggleAnswer5() {
+        var answer = document.getElementById("answer5");
+        var plus = document.getElementById("plus5");
+    
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+    function toggleAnswer6() {
+        var answer = document.getElementById("answer6");
+        var plus = document.getElementById("plus6");
+    
+        if (answer.style.display === "none") {
+            answer.style.display = "block";
+            plus.innerHTML = "-";
+        } else {
+            answer.style.display = "none";
+            plus.innerHTML = "+";
+        }
+    }
+</script>
+</body>
+</html>
